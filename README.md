@@ -13,7 +13,7 @@ Ask it a question, and it gives you three separate, citation-backed answers side
 
 ## Why I built this
 
-I'm a high school student who got into philosophy, and I kept running into the same problem: I wanted to know how Kant, Mill, and Nietzsche would actually respond to a real dilemma — not a textbook summary of their views, but their own reasoning applied to a specific case. Reading three dense 18th–19th century texts every time I had a question wasn't realistic. And asking a general chatbot doesn't really solve it either; it answers from training memory and can quietly invent quotes or blend positions that were never actually held.
+I'm a high school student who got into philosophy, and I kept running into the same problem: I wanted to know how Kant, Mill, and Nietzsche would actually respond to a real dilemma, not a textbook summary of their views, but their own reasoning applied to a specific case. Reading three dense 18th–19th century texts every time I had a question wasn't realistic. And asking a general chatbot doesn't really solve it either; it answers from training memory and can quietly invent quotes or blend positions that were never actually held.
 
 So I built a small system that keeps all three books on my own machine, retrieves the actual relevant passages for a question, and forces the model to answer *from those passages*; with the sources shown, every time.
 
